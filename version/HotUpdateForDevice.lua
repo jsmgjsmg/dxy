@@ -1,0 +1,5 @@
+require("game/manager/SceneManager")
+require("game/manager/UIManager")
+require("version/HotUpdateScene")
+local HotUpdateScene = HotUpdateScene:create()
+SceneManager:enterScene(HotUpdateScene,"HotUpdateScene")
