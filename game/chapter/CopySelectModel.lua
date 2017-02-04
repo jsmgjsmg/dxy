@@ -10,6 +10,12 @@ function CopySelectModel:ctor()
     self.boxRewardList = {}
     self:initModel()
     self:initEvent()
+
+    self.curChapter = 1
+    _G.gMainPlayerLv = 3
+    self:insertCopyData(10101,1)
+    self:insertCopyData(10102,0)
+    
 end
 
 function CopySelectModel:initModel()
